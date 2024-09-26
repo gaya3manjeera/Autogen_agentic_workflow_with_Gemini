@@ -47,6 +47,12 @@ credentials = service_account.Credentials.from_service_account_file(
     filename="path/to/your/service_account_file.json"
 )
 ```
+### Vertex AI Initialization
+vertexai.init(
+    project="your_project_ID",  # Replace with your GCP project ID
+    location="us-central1",     # Replace with your preferred region
+    credentials=credentials
+)
 
 ### Gemini Model Setup
 ```

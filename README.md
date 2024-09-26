@@ -41,7 +41,8 @@ $ pip install google-auth
 ```
 
 ### Service account Integration
-```from google.oauth2 import service_account
+```
+from google.oauth2 import service_account
 
 credentials = service_account.Credentials.from_service_account_file(
     filename="path/to/your/service_account_file.json"
